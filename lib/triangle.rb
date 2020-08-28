@@ -8,11 +8,11 @@ class Triangle
   
   def kind
     if @length1 == @length2 && @length1 == @length3
-      return @equilateral
+      return :equilateral
     elsif @length1 != @length2 && @length1 != @length3 && @length2 != @length3
-      return @scalene
+      return :scalene
     else
-      return @isosceles
+      return :isosceles
     end
     
   end
