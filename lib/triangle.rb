@@ -11,8 +11,9 @@ class Triangle
       return @equilateral
     elsif @length1 != @length2 && @length1 != @length3 && @length2 != @length3
       return @scalene
-    end
+    else
       return @isosceles
+    end
     
   end
   
