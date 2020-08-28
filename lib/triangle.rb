@@ -23,4 +23,4 @@ class Triangle
   
 end
 
-puts Triangle.new(2, 2, 2,)
+puts Triangle.new(2, 2, 2,).kind
