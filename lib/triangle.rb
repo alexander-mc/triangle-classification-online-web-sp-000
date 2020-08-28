@@ -22,3 +22,5 @@ class Triangle
   end
   
 end
+
+puts Triangle.new(2, 2, 2,)
